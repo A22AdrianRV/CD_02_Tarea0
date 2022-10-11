@@ -1,1 +1,14 @@
 system.log
+*.log
+?
+#ignoramos carpetas añadiendo / al final.
+carpeta/
+a[bv0-1]ogado[0-9] 
+# [abc] coge el carácter a b o c dentro de una palabra con guión 
+# con guión coge el rango del caracter inicial al final [0-9] caracteres del 0 al 9
+
+#Directorios anidados
+/a/b/z
+/a/c/z
+/a/**/z
+#cambiamos la b por ** que significa cualquier subdirectorio.
